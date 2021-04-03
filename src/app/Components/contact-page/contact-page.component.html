@@ -1,0 +1,65 @@
+<div class="row">
+    <div class="infoPanel">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Connect with me</div>
+            <div class="panel-body row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2" style="text-align:center">
+                    <a [href]="dataService.userInfo.facebook" matTooltip="Facebook" target="_blank"
+                        class="fa fa-facebook"></a>
+                </div>
+                <div class="col-sm-2" style="text-align:center">
+                    <a [href]="'mailto:'+dataService.userInfo.emailId" target="_blank" matTooltip="Google"
+                        class="fa fa-google"></a>
+                </div>
+                <div class="col-sm-2" style="text-align:center">
+                    <a [href]="dataService.userInfo.linkedIn" target="_blank" matTooltip="Linkedin"
+                        class="fa fa-linkedin"></a>
+                </div>
+                <div class="col-sm-2" style="text-align:center">
+                    <a [href]="dataService.userInfo.instagram" target="_blank" matTooltip="Instagram"
+                        class="fa fa-instagram"></a>
+                </div>
+                <div class="col-sm-2" style="text-align:center">
+                    <a [href]="dataService.userInfo.gitHub" target="_blank" matTooltip="GitHub"
+                        class="fa fa-github"></a>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+        <br>
+        <div class="panel panel-primary">
+            <div class="panel-heading">Personal Contact</div>
+            <div class="panel-body row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2" style="text-align:center">
+                    <a [href]="'tel:'+dataService.userInfo.contactNos.contactNo[0]" target="_blank" matTooltip="Primary" class="fa fa-phone"></a>
+                    <br>
+                    <strong>+91-{{dataService.userInfo.contactNos.contactNo[0]}}</strong>
+                </div>
+                <div class="col-sm-2" style="text-align:center">
+                    <a [href]="'tel:'+dataService.userInfo.contactNos.contactNo[1]" target="_blank" matTooltip="Secondary" class="fa fa-phone"
+                        style="background-color: rgb(204, 175, 9) !important;"></a>
+                    <br>
+                    <strong>+91-{{dataService.userInfo.contactNos.contactNo[1]}}</strong>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+        <br>
+        <div class="panel panel-primary">
+            <div class="panel-heading">Mailing address</div>
+            <div class="panel-body row">
+                <div class="col-sm-5"></div>
+                <div class="col-sm-2" style="text-align:center">
+                    <mat-label class="fa fa-home" matTooltip="Home"></mat-label>
+                    <br>
+                    <strong>Flat No. D403, 'Yashwin Anand',</strong>
+                    <strong>Vibgyor School Road, Sus, Pune</strong>
+                    <strong>411021</strong>
+                </div>
+                <div class="col-sm-5"></div>
+            </div>
+        </div>
+    </div>
+</div>

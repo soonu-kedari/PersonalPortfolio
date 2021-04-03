@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8;
+  // "Lato", sans-serif;
+  color: #777;
+}
+
+@media screen and (min-width: 360px) {
+  .border {
+    font-size: 25x !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .border {
+    font-size: 12px !important;
+  }
+}
+
+.bgimg-1 {
+  background-image: url("../../../assets/web.jpg");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.highlight {
+  color: #3fb8ff;
+}
+
+.center {
+  margin: 0;
+  // position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  padding-top: 15%;
+}
+.border {
+  border-radius: 10px;
+  border: 1px solid transparent !important;
+  background-color: #524c4c;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}

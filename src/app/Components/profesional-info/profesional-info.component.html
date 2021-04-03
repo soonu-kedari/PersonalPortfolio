@@ -1,0 +1,168 @@
+<div class="col-sm-12 workareaheight">
+    <div class="infoPanel">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading pnlHeading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse">Key skills</a>
+                    </h4>
+                </div>
+                <div id="collapse" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="col-sm-12 row" *ngFor="let skill of dataService.userInfo.keySkills.skill">
+                            <div class="col-sm-2">
+                                <strong>{{skill.name}}</strong>
+                            </div>
+                            <div class="col-sm-10">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                                        [ngStyle]="{'width': skill.rating +'%'}">
+                                        <strong> {{skill.rating}} %</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="panel panel-default">
+                <div class="panel-heading pnlHeading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion"
+                            href="#collapse4">Certifications/Endorsements</a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="col-sm-12 row"
+                            *ngFor="let certi of dataService.userInfo.certifications.certification">
+                            <div class="col-sm-2">
+                                <br>
+                                <strong>{{certi.name}}:</strong>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="alert"
+                                    [ngClass]="[ certi.name==='AWS Developer Associate' ? ' alert-danger' : ' alert-info']">
+                                    <mat-label><a [href]="certi.uriAddress" target="_blank">{{certi.uriAddress}}</a>
+                                    </mat-label><br>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <br>
+                                <strong>Validity ({{certi.validity}})</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="panel panel-default">
+                <div class="panel-heading pnlHeading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Companies and project
+                            Details</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body collapsebody">
+                        <div class="panel panel-primary"
+                            *ngFor="let comp of dataService.userInfo.professionalDetails.professionalDetail">
+                            <div class="panel-heading">
+                                <mat-label class="proforgname"> ({{comp.companyDuration}}) - {{comp.organization}}
+                                </mat-label><br>
+                                <mat-label class="profdesig"> ({{comp.designation}}) </mat-label>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-sm-12 row content">
+                                    <div class="col-sm-4" *ngFor="let proj of comp.projects.project">
+                                        <mat-card class="example-card">
+                                            <mat-card-header>
+                                                <mat-card-title>{{proj.name}}</mat-card-title>
+                                            </mat-card-header>
+                                            <mat-card-content>
+                                                <p>{{proj.description}}</p>
+                                                <strong>Responsibilities</strong>
+                                                <div class="alert alert-success"
+                                                    *ngFor="let resp of proj.responsibilities.responsibility">
+                                                    {{resp}}
+                                                </div>
+                                                <strong>Technolgoy/Environment<br></strong>
+
+                                                <mat-chip-list class="example-chip" cdkDropList
+                                                    cdkDropListOrientation="horizontal">
+                                                    <mat-chip class="example-box chipstyle" cdkDrag
+                                                        *ngFor="let env of proj.environments.environment">
+                                                        {{env}}
+                                                    </mat-chip>
+                                                </mat-chip-list>
+                                            </mat-card-content>
+                                        </mat-card>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="panel panel-default">
+                <div class="panel-heading pnlHeading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Educational Details</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="col-sm-12 row" *ngFor="let edu of dataService.userInfo.educationDetails.education">
+                            <div class="col-sm-2">
+                                <br>
+                                <br>
+                                <strong>{{edu.year}}</strong>
+                            </div>
+                            <div class="col-sm-10">
+                                <div class="alert alert-info">
+                                    <mat-label class="eduStyle">{{edu.degree}}</mat-label><br>
+                                    <mat-label>{{edu.college}}</mat-label><br>
+                                    <mat-label>{{edu.grade}} <strong>({{edu.percentage}}%
+                                            Aggregate)</strong>, {{edu.university}}</mat-label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="panel panel-default">
+                <div class="panel-heading pnlHeading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Accomplishments</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="col-sm-12 row"
+                            *ngFor="let acomp of dataService.userInfo.accomplishments.accomplishment">
+                            <div class="col-sm-2">
+                                <br>
+                                <strong>{{acomp.name}}:</strong>
+                            </div>
+                            <div class="col-sm-10">
+                                <div class="alert alert-info">
+                                    <mat-label>{{acomp.description}}</mat-label><br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

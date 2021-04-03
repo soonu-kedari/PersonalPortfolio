@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.infoPanel {
+  padding: 20px 20px 20px 20px;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.example-full-width {
+  width: 100%;
+}
+mat-label.personallabel {
+  color: blue;
+  font-size: 18px !important;
+}
+
+mat-label.proforgname {
+  color: white;
+  font-size: 20px !important;
+}
+
+mat-label.profdesig {
+  color: white;
+  font-size: 14px !important;
+}
+
+.matInputCss {
+  color: black !important;
+  font-size: 18px !important;
+}
+
+.example-card {
+  max-width: 100%;
+  height: 605px;
+  max-height: 740px;
+  overflow: auto;
+}
+
+.workareaheight {
+  max-height: 973px;
+  overflow: auto;
+}
+
+.pnlHeading {
+  height: 45px !important;
+}
+
+div {
+  word-wrap: break-word;
+}

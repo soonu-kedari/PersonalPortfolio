@@ -1,0 +1,95 @@
+<div>
+    <div class="infoPanel">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Personal Information</div>
+            <div class="panel-body row">
+                <div class="col-sm-6">
+                    <mat-form-field appearance="outline" class="example-full-width">
+                        <mat-label class="personallabel">Name</mat-label>
+                        <input matInput placeholder="Placeholder" class="matInputCss" disabled
+                            [value]="dataService.userInfo.name">
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="example-full-width">
+                        <mat-label class="personallabel">Address</mat-label>
+                        <input matInput placeholder="Placeholder" class="matInputCss" disabled
+                            [value]="dataService.userInfo.address">
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="example-full-width">
+                        <mat-label class="personallabel">PAN No</mat-label>
+                        <input matInput placeholder="Placeholder" class="matInputCss" disabled
+                            [value]="dataService.userInfo.panNo">
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="example-full-width">
+                        <mat-label class="personallabel">Nationality</mat-label>
+                        <input matInput placeholder="Placeholder" class="matInputCss" disabled
+                            [value]="dataService.userInfo.nationality">
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="example-full-width">
+                        <mat-label class="personallabel">Primary Contact No.</mat-label>
+                        <input matInput placeholder="Placeholder" class="matInputCss" disabled
+                            [value]="dataService.userInfo.contactNos.contactNo[0]">
+                    </mat-form-field>
+                </div>
+                <div class="col-sm-6">
+                    <mat-form-field appearance="outline" class="example-full-width">
+                        <mat-label class="personallabel">Marital status</mat-label>
+                        <input matInput placeholder="Placeholder" class="matInputCss" disabled
+                            [value]="dataService.userInfo.marStatus">
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="example-full-width">
+                        <mat-label class="personallabel">Gender</mat-label>
+                        <input matInput placeholder="Placeholder" class="matInputCss" disabled
+                            [value]="dataService.userInfo.gender">
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="example-full-width">
+                        <mat-label class="personallabel">Passport</mat-label>
+                        <input matInput placeholder="Placeholder" class="matInputCss" disabled
+                            [value]="dataService.userInfo.passport">
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="example-full-width">
+                        <mat-label class="personallabel">Email</mat-label>
+                        <input matInput placeholder="Placeholder" class="matInputCss" disabled
+                            [value]="dataService.userInfo.emailId">
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="example-full-width">
+                        <mat-label class="personallabel">Secondary Contact No.</mat-label>
+                        <input matInput placeholder="Placeholder" class="matInputCss" disabled
+                            [value]="dataService.userInfo.contactNos.contactNo[1]">
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="infoPanel">
+        <div class="panel panel-primary">
+            <div class="panel-heading">My offerings</div>
+            <div class="panel-body row">
+                <div class="col-sm-12">
+                    <mat-form-field appearance="outline" class="example-full-width">
+                        <mat-label class="personallabel">My offerings</mat-label>
+                        <textarea matInput disabled
+                            style="color: black;font-size: 18px;">{{dataService.userInfo.profileDesc}}</textarea>
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="infoPanel">
+        <div class="panel panel-primary">
+            <div class="panel-heading">My intrests</div>
+            <div class="panel-body row">
+                <div class="col-sm-12">
+                    <mat-chip-list class="example-chip" cdkDropList cdkDropListOrientation="horizontal">
+                        <mat-chip class="example-box" color="primary" cdkDrag
+                            *ngFor="let int of dataService.userInfo.interests.interest">
+                            {{int}}
+                        </mat-chip>
+                    </mat-chip-list>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
