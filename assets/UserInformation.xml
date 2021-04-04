@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<userInfo>
+    <name>Rohan Kedari</name>
+	<marStatus>Married</marStatus>
+	<gender>Male</gender>
+	<bloodGroup>B+</bloodGroup>
+	<panNo>BWAPK9848K</panNo>
+	<passport>Yes</passport>
+	<nationality>Indian</nationality>
+	<interests>
+		<interest>Playing Cricket</interest>
+		<interest>Playing MOFPS Games</interest>
+		<interest>Listening Songs</interest>
+		<interest>Volunteer Work</interest>
+	</interests>
+	<emailId>kedarirohan@gmail.com</emailId>
+	<dob>19/Dec/1990</dob>
+	<userProfLine>System Engineer at Siemens Technology | AWS Developer Associate | Full-stack developer | Angular | API | .Net Core</userProfLine>
+	<linkedIn>https://www.linkedin.com/in/rohankedari/</linkedIn>
+	<gitHub>https://github.com/soonu-kedari</gitHub>
+	<facebook>https://www.facebook.com/soonu.kedari/</facebook>
+	<instagram>https://www.instagram.com/local_dreamer19/</instagram>
+	<experience>6.4 Years</experience>
+	<typeOfDev>web developer</typeOfDev>
+	<profileDesc>Successful Software Developer offering 6.4 years of experience in demanding environments focused on producing cutting-edge systems for Siemens Technologies PVT. LTD. Skilled in directing development with creative and performance-oriented approach. Well organized and customer-focused with proven skills in project management and team leadership.</profileDesc>
+	<contactNos>
+		<contactNo>9890084482</contactNo>
+		<contactNo>8668556152</contactNo>
+	</contactNos>
+	<address>FL No:D403, ‘Yashwin Anand’, Sus, MH, 411021</address>
+	<keySkills>
+		<skill>
+			<name>C#</name>
+			<rating>90</rating>
+		</skill>
+		<skill>
+			<name>.Net Core Api</name>
+			<rating>85</rating>
+		</skill>
+		<skill>
+			<name>Angular 2+</name>
+			<rating>90</rating>
+		</skill>
+		<skill>
+			<name>AWS Services</name>
+			<rating>60</rating>
+		</skill>
+		<skill>
+			<name>Java Script</name>
+			<rating>60</rating>
+		</skill>
+		<skill>
+			<name>Micro Services</name>
+			<rating>90</rating>
+		</skill>
+		<skill>
+			<name>MS SQL, MySQL</name>
+			<rating>70</rating>
+		</skill>
+		<skill>
+			<name>HTML, CSS</name>
+			<rating>90</rating>
+		</skill>
+	</keySkills>
+	<certifications>
+		<certification>
+			<name>AWS Developer Associate</name>
+			<validity>2019-2022</validity>
+			<uriAddress>https://www.credly.com/badges/034d2abf-1070-4b66-8275-72439b3422d5/linked_in_profile</uriAddress>
+		</certification>	
+		<certification>
+			<name>Angular 2+</name>
+			<validity>2021-2022</validity>
+			<uriAddress>https://cutshort.io/certificate/35724</uriAddress>
+		</certification>
+		<certification>
+			<name>Java Script</name>
+			<validity>2021-2022</validity>
+			<uriAddress>https://cutshort.io/certificate/35736</uriAddress>
+		</certification>
+	</certifications>
+	<accomplishments>
+		<accomplishment>	
+			<name>Spot Award</name>
+			<description>By Siemens Technologies for utility created to migrate server data to Git.</description>
+		</accomplishment>	
+		<accomplishment>	
+			<name>First Price</name>
+			<description>In Code Along event arranged by Siemens Technologies.</description>
+		</accomplishment>	
+		<accomplishment>	
+			<name>Best Performer</name>
+			<description>By Synechron Technologies.</description>
+		</accomplishment>	
+	</accomplishments>
+	<educationDetails>
+		<education>
+			<degree>P.G.D in Digital and Cyber Forensic Science and Law</degree>
+			<grade>First class</grade>
+			<college>Govt. Institute Of Forensic Science - Aurangabad</college>
+			<university>Dr. B.A.M.U, Aurangabad</university>
+			<percentage>62.33%</percentage>
+			<year>2014-03 - 2015-06</year>
+		</education>
+		<education>
+			<degree>Master of Computer Applications</degree>
+			<grade>First class</grade>
+			<college>M.G.M. Institute Of Management - Aurangabad</college>
+			<university>Dr. B.A.M.U, Aurangabad.</university>
+			<percentage>66%</percentage>
+			<year>2011-02 - 2014-02</year>
+		</education>
+		<education>
+			<degree>Bachelor of Computer Science</degree>
+			<grade>First class</grade>
+			<college>Yeshwant College Of I.T - Parbhani</college>
+			<university>SRTMU, Nanded.</university>
+			<percentage>65.61%</percentage>
+			<year>2007-03 - 2011-02</year>
+		</education>
+	</educationDetails>
+	<professionalDetails>
+		<professionalDetail>
+			<order>1</order>
+			<designation>Software developer</designation>
+			<organization>Siemens Technology and Services Private Limited</organization>
+			<companyDuration>2017-07 - Current</companyDuration>
+			<projects>
+				<project>
+					<name>ChalkTalk 3.0</name>
+					<description>ChalkTalk 3.0 is web application which is used for energy optimization calculations for plants like large buildings, airports, metro stations. ChalkTalk 3.0 is tool which takes the trend data form devices like chiller, water pumps, cooling towers and perform calculations on that data to produce energy and cost optimization values which later on used for saving energy and cost respectively for that particular plant.</description>
+					<responsibilities>
+						<responsibility>Implement new features for the ChalkTalk application according to user requirements.</responsibility>
+						<responsibility>Performed as Lead for 4 people of team for ChalkTalk 3.0.</responsibility>
+						<responsibility>Gathering client requirements and work accordingly to complete those requirements.</responsibility>
+					</responsibilities>
+					<environments>
+						<environment>AWS Services</environment>
+						<environment>Angular 8</environment>
+						<environment>.Net Core Web API</environment>
+						<environment>SQL Server 2017</environment>
+					</environments>
+				</project>
+				<project>
+					<name>Si-Quote</name>
+					<description>Si-Quote is online quotation generating application used by Siemens end user to create quotation of their systems like Fire system, Air conditioner system, Building automation system Vendors are using this application to generate quotation of any required system of Siemens Inc. It acts as a single platform application for all clients.</description>
+					<responsibilities>
+						<responsibility>Develop new features for the Angular application according to user requirements.</responsibility>
+						<responsibility>Collaborate with team member to develop several modules of the application like quotation generation and report generation.</responsibility>
+						<responsibility>Gathering client requirements and work accordingly to complete those requirements.</responsibility>
+					</responsibilities>
+					<environments>
+						<environment>AWS Services</environment>
+						<environment>Angular</environment>
+						<environment>.Net Core Web </environment>
+						<environment>SQL Server 2012</environment>
+					</environments>
+				</project>
+				<project>
+					<name>Product Promotion Authorization (PPA)</name>
+					<description>PPA is application which is used for authorizing product promotion request which are raised from Si-Quote tool. PPA is universal app that can be used for Apple, Android and Windows operating systems.</description>
+					<responsibilities>
+						<responsibility>Develop new features for the PPA application according to user requirements.</responsibility>
+						<responsibility>Developed authorization flow which having role based system for controlling PPA requests.</responsibility>
+						<responsibility>Gathering client requirements and work accordingly to complete those requirements</responsibility>
+					</responsibilities>
+					<environments>
+						<environment>Visual Studio 2017</environment>
+						<environment>Xamrin</environment>
+						<environment>Web API</environment>
+						<environment>SQL Server 2014</environment>
+					</environments>
+				</project>
+			</projects>
+		</professionalDetail>
+		<professionalDetail>
+			<order>2</order>
+			<designation>Associate Software Developer</designation>
+			<organization>Synechron Technologies Pvt. Ltd</organization>
+			<companyDuration>2015-05 - 2017-06</companyDuration>
+			<projects>
+				<project>
+					<name>IWeb</name>
+					<description>IWeb is a claim-filing application platform used by end customers to file a Claim on behalf of the Subscriber enrolled under the Mobile Insurance Program of Asurion Inc. It acts as a single platform application for use across all clients and integrated with iCare application used by Customer service representative to resume incomplete claim status.</description>
+					<responsibilities>
+						<responsibility>Develop new features for the Angular.js application according to user requirements</responsibility>
+						<responsibility>Validating user actions on the client side and providing responsive feedback.</responsibility>
+						<responsibility>Review of existing codebase and plan necessary actions for code improvement</responsibility>
+					</responsibilities>
+					<environments>
+						<environment>Visual Studio 2012</environment>
+						<environment>AngularJS</environment>
+						<environment>Web API</environment>
+						<environment>SQL Server 2008</environment>
+					</environments>
+				</project>
+				<project>
+					<name>iCare</name>
+					<description>iCare is a claim-filing application platform used by CSR (Customer service representative) to file a Claim on behalf of the Subscriber enrolled under the Mobile Insurance Program of Asurion Inc. It acts as a single platform application for use across all clients and all call centers to process new claims and most unfinished claims depending upon their status.</description>
+					<responsibilities>
+						<responsibility>Full lifecycle application development.</responsibility>
+						<responsibility>Designing, coding and debugging application.</responsibility>
+						<responsibility>Code refactoring.</responsibility>
+					</responsibilities>
+					<environments>
+						<environment>Visual Studio 2012</environment>
+						<environment>SQL Server 2008</environment>
+						<environment>MVC 4</environment>
+						<environment>JQuery</environment>
+						<environment>WebAPI</environment>
+					</environments>
+				</project>
+			</projects>
+		</professionalDetail>
+		<professionalDetail>
+			<order>3</order>
+			<designation>Software developer</designation>
+			<organization>Nucleosys Technologies</organization>
+			<companyDuration>2014-07 - 2015-05</companyDuration>
+			<projects>
+				<project>
+					<name>Enterprise Management Desktop Application</name>
+					<description>This application is a digitized alternative for traditional hand written system, by using this application vendor can keep the track of product services, It also contains inventory system for products which vender gives on rent to their client like Coffee machine, Inverters, etc</description>
+					<responsibilities>
+						<responsibility>Requirement understanding.</responsibility>
+						<responsibility>Designing the project plan.</responsibility>
+						<responsibility>Actual project coding.</responsibility>
+					</responsibilities>
+					<environments>
+						<environment>Visual Studio 2012</environment>
+						<environment>SQL Server 2012</environment>
+						<environment>Windows Forms Application</environment>
+					</environments>
+				</project>
+				<project>
+					<name>Online Annual Maintenance Contract</name>
+					<description>This application is a digitized alternative for traditional system when there is problem in any hardware which is under AMC customer has to call and explain about the problem he faced in it, by using this application customer make online complaint and save time and keep the track of his complaints.</description>
+					<responsibilities>
+						<responsibility>Requirement understanding.</responsibility>
+						<responsibility>Designing the project plan.</responsibility>
+						<responsibility>Actual project coding.</responsibility>
+					</responsibilities>
+					<environments>
+						<environment>Visual Studio 2012</environment>
+						<environment>SQL Server 2012</environment>
+						<environment>Asp.Net</environment>
+						<environment>jQuery</environment>
+						<environment>WebAPI</environment>
+					</environments>
+				</project>
+			</projects>
+		</professionalDetail>
+	</professionalDetails>
+</userInfo>
