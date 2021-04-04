@@ -195,7 +195,7 @@
 					</environments>
 				</project>
 				<project>
-					<name>iCare(U.S.Based Client)</name>
+					<name>iCare</name>
 					<description>iCare is a claim-filing application platform used by CSR (Customer service representative) to file a Claim on behalf of the Subscriber enrolled under the Mobile Insurance Program of Asurion Inc. It acts as a single platform application for use across all clients and all call centers to process new claims and most unfinished claims depending upon their status.</description>
 					<responsibilities>
 						<responsibility>Full lifecycle application development.</responsibility>

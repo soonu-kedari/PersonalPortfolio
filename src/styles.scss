@@ -69,10 +69,14 @@ mat-label.profdesig {
   height: 45px !important;
   background-color: #337ab7 !important ;
   color: #ffffff !important ;
-  cursor:pointer !important;
-  
+  cursor: pointer !important;
 }
 
 div {
   word-wrap: break-word;
+}
+
+.chipstyle {
+  background-color: #337ab7 !important;
+  color: white !important;
 }

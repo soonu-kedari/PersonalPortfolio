@@ -84,7 +84,8 @@
                                                 <mat-card-title>{{proj.name}}</mat-card-title>
                                             </mat-card-header>
                                             <mat-card-content>
-                                                <p>{{proj.description}}</p>
+                                                <p style="text-align: justify;text-justify: inter-word;">
+                                                    {{proj.description}}</p>
                                                 <mat-label><strong>Responsibilities</strong></mat-label>
                                                 <div class="alert alert-success"
                                                     *ngFor="let resp of proj.responsibilities.responsibility">
