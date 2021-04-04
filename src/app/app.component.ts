@@ -27,7 +27,7 @@ export class AppComponent {
 
   loadXML() {
     return this.http
-      .get("/assets/UserInformation.xml", { responseType: "text" })
+      .get("assets/UserInformation.xml", { responseType: "text" })
       .pipe(
         switchMap(async xml => await this.parseXmlToJson(xml))
       );
