@@ -21,7 +21,7 @@ export class AppComponent {
     public dataService: DataTransferService) {
     this.loadXML().subscribe(x => {
       this.dataService.userInfo = plainToClass(UserInfo, x.userInfo);
-      console.log(this.dataService.userInfo);
+      // console.log(this.dataService.userInfo);
     });
   }
 
