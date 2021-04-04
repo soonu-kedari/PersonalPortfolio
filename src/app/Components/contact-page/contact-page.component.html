@@ -33,15 +33,17 @@
             <div class="panel-body row">
                 <div class="col-sm-4"></div>
                 <div class="col-sm-2" style="text-align:center">
-                    <a [href]="'tel:'+dataService.userInfo.contactNos.contactNo[0]" target="_blank" matTooltip="Primary" class="fa fa-phone"></a>
+                    <a [href]="'tel:'+dataService.userInfo.contactNos.contactNo[0]" target="_blank" matTooltip="Primary"
+                        class="fa fa-phone"></a>
                     <br>
-                    <strong>+91-{{dataService.userInfo.contactNos.contactNo[0]}}</strong>
+                    <mat-label><strong>+91-{{dataService.userInfo.contactNos.contactNo[0]}}</strong></mat-label>
                 </div>
                 <div class="col-sm-2" style="text-align:center">
-                    <a [href]="'tel:'+dataService.userInfo.contactNos.contactNo[1]" target="_blank" matTooltip="Secondary" class="fa fa-phone"
+                    <a [href]="'tel:'+dataService.userInfo.contactNos.contactNo[1]" target="_blank"
+                        matTooltip="Secondary" class="fa fa-phone"
                         style="background-color: rgb(204, 175, 9) !important;"></a>
                     <br>
-                    <strong>+91-{{dataService.userInfo.contactNos.contactNo[1]}}</strong>
+                    <mat-label><strong>+91-{{dataService.userInfo.contactNos.contactNo[1]}}</strong></mat-label>
                 </div>
                 <div class="col-sm-4"></div>
             </div>
@@ -54,9 +56,9 @@
                 <div class="col-sm-2" style="text-align:center">
                     <mat-label class="fa fa-home" matTooltip="Home"></mat-label>
                     <br>
-                    <strong>Flat No. D403, 'Yashwin Anand',</strong>
-                    <strong>Vibgyor School Road, Sus, Pune</strong>
-                    <strong>411021</strong>
+                    <mat-label><strong>Flat No. D403, 'Yashwin Anand',</strong></mat-label>
+                    <mat-label><strong>Vibgyor School Road, Sus, Pune</strong></mat-label>
+                    <mat-label><strong>411021</strong></mat-label>
                 </div>
                 <div class="col-sm-5"></div>
             </div>
